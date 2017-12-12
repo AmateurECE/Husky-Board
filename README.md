@@ -13,6 +13,18 @@ board design is not necessarily the Holy Grail of computer engineering.
 This repository will be updated as the project evolves. It will contain design
 goals, boms, schematics and board design files, and potentially even software.
 
+## Repository Workflow ##
+Below is a description of the directory organization:
+```
+doc/	- Documents for the project, including internal documentation, user
+		manuals, application notes, etc.
+pcb/	- Schematic, PCB, and supporting files.
+sfw/	- Software for the board, including device drivers, board-specific
+		bootloaders, etc.
+```
+In general, files on the master branch should be considered to be working files.
+As files are finished and released, they will be migrated to a `Release` branch.
+
 <!--
 This list is used by the bug tracker. Please make sure to format any with a
 C-style comment opener ('/* ') followed by the word todo in caps and a colon.
