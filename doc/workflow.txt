@@ -9,25 +9,26 @@
 #
 # CREATED:	    12/12/2017
 #
-# LAST EDITED:	    12/12/2017
+# LAST EDITED:	    12/18/2017
 ###
 
 ################################################################################
 # WORKFLOW
 ###
 
-* Design Goals
-* Functional Description
-* Device Selection
-* Bill of Materials
-* Prototype of the Board
-* Begin Software Development
-* Board Design Debug
-* Finalize Board Design
-* Board Manufacturing
-* Software Debug
-* Finalize Software Development
+*   Design Goals
+*   Functional Description
+*   Device Selection
+*   Bill of Materials
+*   Prototype of the Board
+*   In System Programmer Development
+*   Begin Software Development
+*   Board Design Debug
+*   Finalize Board Design
+*   Board Manufacturing
+*   Software Debug
+*   Finalize Software Development
 
-* Further Applications? Tuned Kernel Development?
+*   Further Applications? Tuned Kernel Development?
 
 ################################################################################
