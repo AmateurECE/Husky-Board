@@ -1,0 +1,79 @@
+################################################################################
+# NAME:		    design-goals.txt
+#
+# AUTHOR:	    Ethan D. Twardy
+#
+# DESCRIPTION:	    This document lays out the design goals for the
+#		    microcontroller board and non-specific system requirements.
+#		    TODO: Review Design Goals for Release.
+#
+# CREATED:	    12/18/2017
+#
+# LAST EDITED:	    12/18/2017
+###
+
+################################################################################
+# HARDWARE DESIGN GOALS
+###
+
+*   A common, compact form factor will be used--if possible, form factor
+    compatible with Arduino or Raspberry Pi 2.
+*   Pin header compatibility with Arduino or Raspberry Pi.
+*   A balance between component minimization and functional maximization shall
+    be employed.
+*   PCB Shall be one or two sided, with no internal layers, using either solely
+    surface mount components (where applicable) or a combination of surface
+    mount and through-hole components.
+*   PCB Shall be designed with EMC compatibility in mind.
+*   PCB Shall be designed to minimize noise introduced into high-speed digital
+    systems.
+*   Hardware shall be extensible, such that it will be possible to design add-on
+    boards which implement useful functionalities, i.e. an interface may be
+    broken out into a pin header onto which a mezzanine or extraneous board may
+    be attached, etc.
+*   Hardware shall be designed such that the functionality of the board is not
+    limited by its interfaces (i.e. as many interfaces as possible will be
+    supported).
+*   Hardware jumpers shall implement some of the configurable functionalities
+    of the board.
+*   Hardware will be designed to minimize cost and design burdens.
+*   Hardware design will be available under a common open source license
+    (undetermined).
+*   An ISP (in-system programmer) will be included on board.
+
+################################################################################
+# SOFTWARE DESIGN GOALS
+###
+
+*   Software drivers will be available for all devices on the board including
+    (but not limited to) devices internal to the microcontroller device,
+    extraneous devices which exist on the board, and extraneous devices which
+    may be connected via the pin header.
+*   Software will be primarily composed in the C programming language and
+    Assembly, but other languages may be used as necessary.
+*   Software will be available under a common open source license
+    (undetermined).
+*   Device drivers will export a simple interface, while exposing all major
+    functionality of the device.
+*   All software will be well documented, either in the form of text files or
+    LaTeX documents. Software will not be released until all functionality of
+    the software has been documented.
+*   All software will follow a common style convention.
+*   All device drivers will be compatible with the ABI used by the Linux kernel
+    stable release currently in use at the time of design.
+*   All software, including but not limited to device drivers, except where
+    not applicable, must be reentrant.
+*   Software will be designed to minimize damage to the hardware components in
+    the event of incorrect use.
+*   Software will be designed to minimize fatal software errors and application
+    crashing in the event of incorrect use.
+
+################################################################################
+# DESIGN TIMELINE
+###
+
+*   A functioning hardware prototype shall be implemented by April 25, 2018, or
+    the end of the Spring Academic Semester at Michigan Technological
+    University, whichever comes first.
+
+################################################################################
