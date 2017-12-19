@@ -1,1 +1,2 @@
-./README.md: Draw up design goals and project workflow. | id:697bc4d77699307267d3a9fcb07f326df44e8d38
+./doc/design-goals.txt: Review Design Goals for Release. | id:9183265d808cba1f77c0c9c95458ef726a08c0e1
+./README.md: Draft Functional Description | id:cc76c650b21812c465d24beec5a9a832bbcd7128

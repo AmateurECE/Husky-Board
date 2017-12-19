@@ -34,5 +34,5 @@ have the 'b' command correctly set in your .bash_aliases. A working example of
 the 'b' command can be found in:
 https://github.com/AmateurECE/Tools/blob/master/.bash_aliases
 
-/* TODO: Draw up design goals and project workflow.
+/* TODO: Draft Functional Description
 -->

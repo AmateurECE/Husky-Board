@@ -1,0 +1,39 @@
+################################################################################
+# NAME:		    functional-description.txt
+#
+# AUTHOR:	    Ethan D. Twardy
+#
+# DESCRIPTION:	    This is a preliminary functional description of the board.
+#		    Here, we will list the major functions that the board will
+#		    have--interfaces and protocols it will support, memory
+#		    types and sizes, etc.
+#
+# CREATED:	    12/19/2017
+#
+# LAST EDITED:	    12/19/2017
+###
+
+################################################################################
+# MICROCONTROLLER
+###
+
+*   The microcontroller will implement either an AVR or ARM core.
+
+################################################################################
+# MEMORY
+###
+
+*   The board will have at least 32kB of SRAM between processor internal and
+    external devices.
+
+*   The board shall have at least one external NVM device (at least one of the
+    following: Flash, EEPROM) for program and data storage, and at least 256kB
+    of external NVM memory total.
+
+################################################################################
+# INTERFACES
+###
+
+*   The board will have the ability to support at least one SPI device.
+
+################################################################################
