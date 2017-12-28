@@ -1,4 +1,4 @@
-################################################################################
+###############################################################################
 # NAME:		    design-goals.txt
 #
 # AUTHOR:	    Ethan D. Twardy
@@ -9,10 +9,10 @@
 #
 # CREATED:	    12/18/2017
 #
-# LAST EDITED:	    12/18/2017
+# LAST EDITED:	    12/28/2017
 ###
 
-################################################################################
+###############################################################################
 # HARDWARE DESIGN GOALS
 ###
 
@@ -27,10 +27,10 @@
 *   PCB Shall be designed with EMC compatibility in mind.
 *   PCB Shall be designed to minimize noise introduced into high-speed digital
     systems.
-*   Hardware shall be extensible, such that it will be possible to design add-on
-    boards which implement useful functionalities, i.e. an interface may be
-    broken out into a pin header onto which a mezzanine or extraneous board may
-    be attached, etc.
+*   Hardware shall be extensible, such that it will be possible to design
+    external boards which implement useful functionalities, i.e. an interface
+    may be broken out into a pin header onto which a mezzanine board may be
+    attached, etc.
 *   Hardware shall be designed such that the functionality of the board is not
     limited by its interfaces (i.e. as many interfaces as possible will be
     supported).
@@ -41,7 +41,7 @@
     (undetermined).
 *   An ISP (in-system programmer) will be included on board.
 
-################################################################################
+###############################################################################
 # SOFTWARE DESIGN GOALS
 ###
 
@@ -68,7 +68,7 @@
 *   Software will be designed to minimize fatal software errors and application
     crashing in the event of incorrect use.
 
-################################################################################
+###############################################################################
 # DESIGN TIMELINE
 ###
 
@@ -76,4 +76,4 @@
     the end of the Spring Academic Semester at Michigan Technological
     University, whichever comes first.
 
-################################################################################
+###############################################################################

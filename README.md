@@ -22,8 +22,10 @@ pcb/	- Schematic, PCB, and supporting files.
 sfw/	- Software for the board, including device drivers, board-specific
 		bootloaders, etc.
 ```
-In general, files on the master branch should be considered to be working files.
-As files are finished and released, they will be migrated to a `Release` branch.
+In general, files on the master branch should be considered to be working
+files.
+As files are finished and released, they will be migrated to a `Release`
+branch.
 
 <!--
 This list is used by the bug tracker. Please make sure to format any with a
