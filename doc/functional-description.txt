@@ -36,4 +36,6 @@
 
 *   The board will have the ability to support at least one SPI device.
 
+*   The board will support one I2C device
+
 ###############################################################################
