@@ -10,7 +10,7 @@
 #
 # CREATED:	    12/19/2017
 #
-# LAST EDITED:	    12/28/2017
+# LAST EDITED:	    02/04/2018
 ###
 
 ###############################################################################
@@ -30,6 +30,17 @@
     following: Flash, EEPROM) for program and data storage, and at least 256kB
     of external NVM memory total.
 
+*   (Tentative) The board should have an external mass storage interface. For
+    example, USB Mass Storage, SD (or any derivative), etc.
+
+###############################################################################
+# POWER SUPPLY
+###
+
+*   The power supply shall contain voltage overflow and underflow protection,
+    in the event that a supply of incorrect voltage or power ratings is
+    connected.
+
 ###############################################################################
 # INTERFACES
 ###
@@ -37,5 +48,11 @@
 *   The board will have the ability to support at least one SPI device.
 
 *   The board will support one I2C device
+
+*   The board will have 10/100 Mbps Ethernet via an MII or RMII interface.
+
+*   The board shall support USB/COM interaction.
+
+*   The board shall implement a USB Device interface.
 
 ###############################################################################
