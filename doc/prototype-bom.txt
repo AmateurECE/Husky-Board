@@ -1,0 +1,33 @@
+###############################################################################
+# NAME:		    prototype-bom.txt
+#
+# AUTHOR:	    Ethan D. Twardy
+#
+# DESCRIPTION:	    This BOM contains a partslist of all of the devices,
+#		    discrete or otherwise, which will be used to implement the
+#		    minimal 'prototype' board.
+#		    NOTE: According to my calculations, there is limited chance
+#		    of meeting the minimum supply rise rate characteristics. To
+#		    compensate for this, the device must be held in reset until
+#		    the supplies have stabilized.
+#
+# CREATED:	    02/04/2018
+#
+# LAST EDITED:	    02/18/2018
+###
+
+RefDes	    Digikey Part Number		    Description
+
+U01	    1611-AT32UC3C2256C-A2ZT-ND	    Atmel Microcontroller
+U02	    296-39435-1-ND		    TPS61222 5V Fixed Regulator
+LF	    732-1008-1-ND		    Hysteretic Feedback Inductor
+J01	    609-4618-1-ND		    USB Micro-B Connector
+X0	    XC1776CT-ND			    16MHz Crystal Oscillator
+X1	    300-8744-1-ND		    32kHz Crystal Oscillator
+
+# TODO: Discretes cannot be smaller than 1608 metric, 0603 imperial.
+# TODO: Add a CR2032 Battery saddle--just in case.
+# TODO: Add a power state LED.
+# TODO: Determine if the 32kHz Osc. chosen is suitable.
+
+###############################################################################
